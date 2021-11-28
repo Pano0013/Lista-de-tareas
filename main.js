@@ -8,11 +8,11 @@ function nuevaTarea(){
 
     tarea.innerHTML = `
      <td> <input type="checkbox" class="checkbox" onClick="completar()" /> </td>
-     <td > ${input.value} </td>
-     <td>  X  </td>
+     <td> ${input.value} </td>
+     <td>X </td>
     `;
 console.log(input.value);
     tabla.appendChild(tarea);
 };
 
-boton.addEventListener("click", nuevaTarea);
+boton.addEventListener(`click`, nuevaTarea);
