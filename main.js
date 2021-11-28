@@ -11,7 +11,7 @@ function nuevaTarea(){
      <td> ${input.value} </td>
      <td>X </td>
     `;
-console.log(input.value);
+
     tabla.appendChild(tarea);
 };
 
