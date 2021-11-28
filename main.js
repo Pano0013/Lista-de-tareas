@@ -1,5 +1,5 @@
 const input = document.getElementById("tarea");
-const boton = document.getElementsById("btn");
+const boton = document.getElementById("btn");
 const tabla = document.getElementById("tabla"); 
 
 function nuevaTarea(){
@@ -15,4 +15,4 @@ console.log(input.value);
     tabla.appendChild(tarea);
 };
 
-boton.addEventListener("click", nuevaTarea);
+boton.addEventListener("click", nuevaTarea());
