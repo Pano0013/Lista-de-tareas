@@ -7,7 +7,7 @@ function nuevaTarea(){
     const tarea = document.createElement("tr");
 
     tarea.innerHTML = `
-     <td> <input type="checkbox" class="checkbox" onClick="completar()" /> </td>
+     <td> <input type="checkbox" class="checkbox"/> </td>
      <td> ${input.value} </td>
      <td>X </td>
     `;
