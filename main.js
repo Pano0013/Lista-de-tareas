@@ -15,4 +15,4 @@ console.log(input.value);
     tabla.appendChild(tarea);
 };
 
-boton.addEventListener(`click`, nuevaTarea);
+boton.addEventListener("click", nuevaTarea);
