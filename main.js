@@ -9,10 +9,17 @@ function nuevaTarea(){
     tarea.innerHTML = `
      <td> <input type="checkbox" class="checkbox"/> </td>
      <td> ${input.value} </td>
-     <td>X </td>
+     <td><i class="fas fa-trash-alt"></i></td>
     `;
 
     tabla.appendChild(tarea);
 };
 
-boton.addEventListener("click", nuevaTarea);
+boton.addEventListener("click", function(){
+  if(input.value === ""){
+      alert("Porfavor ponga una descripcion")
+  }
+  else{
+      nuevaTarea();
+    };
+});
