@@ -1,5 +1,5 @@
 const input = document.getElementById("tarea");
-const boton = document.getElementsByClassName("btn");
+const boton = document.getElementsById("btn");
 const tabla = document.getElementById("tabla"); 
 
 function nuevaTarea(){
